@@ -1,0 +1,122 @@
+/*
+ * Globals
+ */
+
+
+/* Custom extras cover */
+ html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+}
+.coverimage{
+  object-fit: cover;
+  z-index: -1;
+  position: fixed;
+}
+.shadow-cover{
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover-logo{
+  display: block;
+  width: 50%;
+  object-fit: contain;
+}
+.down-arrow{
+  display: block;
+  width: 60px!important;
+  filter: opacity(0.5);
+  margin-top: 15px;
+}
+.cover-h1{
+  font-family: Noir!important;
+  font-size: 60px;
+}
+.nav-font{
+  font-family: Noir!important;
+  margin-top: 5px;
+}
+@media screen and (max-height: 700px){
+  .cover-logo{
+    width: 35vh;
+  }
+  .cover-h1{
+    font-size: 8vh;
+  }
+  .texto-adicional{
+    display: none;
+  }
+  .lead{
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 600px){
+  .cover-logo{
+    width: 50vw;
+  }
+  .cover-h1{
+    font-size: 10vw;
+  }
+  .texto-adicional{
+    display: none;
+  }
+  .lead{
+    font-size: 5.5vw;
+  }
+}
+
+/* Preset */
+/* Custom default button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.logo-style{
+  display: flex;
+  align-items: center;
+}

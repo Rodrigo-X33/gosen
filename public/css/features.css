@@ -1,0 +1,63 @@
+/* Custom extras features */
+/* custom button */
+.block-btn-green {
+  background: #72CAAF;
+}
+
+.block-btn-green a {
+  background: linear-gradient(145deg, #67b69e, #7ad8bb);
+  box-shadow: 6px 6px 20px -1px #61ac95,
+      -6px -6px 20px -1px #83e8c9;
+}
+
+.block-pad {
+  display: flex;
+  justify-content: center;
+  padding: 150px 0 150px 0;
+}
+
+.custom-features-button{
+  display: flex;
+  min-width: 275px;
+  padding: 25px 35px;
+  margin: 0 35px;
+  border-radius: 10px;
+  color: #53657D;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+/* flashcards */
+small{
+  font-family: Noir;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+/* Preset */
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+  
+  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+  
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+  }

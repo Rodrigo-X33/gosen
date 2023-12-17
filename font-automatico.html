@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-size: 16px; /* Tamaño de letra inicial */
+    }
+  </style>
+  <title>Ajuste Dinámico de Tamaño de Letra</title>
+</head>
+<body>
+
+  <!-- Contenido de la página -->
+    probdlskjflsakjdflkjaslfkjalkj
+  <script>
+    function ajustarTamanioLetra() {
+      // Obtener el tamaño actual de la ventana
+      const anchoVentana = window.innerWidth;
+
+      // Calcular el nuevo tamaño de letra (puedes ajustar esta lógica según tus necesidades)
+      const nuevoTamanioLetra = anchoVentana / 40; // Ejemplo: Tamaño de letra = ancho de la ventana / 40
+
+      // Aplicar el nuevo tamaño de letra al cuerpo (o al elemento que desees)
+      document.body.style.fontSize = nuevoTamanioLetra + 'px';
+    }
+
+    // Llamar a la función al cargar la página
+    ajustarTamanioLetra();
+
+    // Adjuntar la función al evento de cambio de tamaño de la ventana
+    window.addEventListener('resize', ajustarTamanioLetra);
+  </script>
+
+</body>
+</html>

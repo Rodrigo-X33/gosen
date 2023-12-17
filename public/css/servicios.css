@@ -1,0 +1,30 @@
+/* cover styles */
+
+.background-nav{
+    background-color: black;
+}
+.nav-masthead .active{
+    border-bottom-color: #04AA6D;
+}
+.marca-nav{
+    position: relative;
+    color: white;
+}
+.space-logo{
+    display: inline-block;
+    width: 45px!important;
+    position: relative;
+}
+.posicion-logo{
+    width: 40px;
+    position: absolute;
+    margin-right: 2px;
+    left: 0px;
+    top: -30px;
+}
+@media screen and (max-width: 767px) {
+    .posicion-logo{
+        display: block;
+        top: -30px;
+    }
+}
