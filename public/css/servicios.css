@@ -33,16 +33,16 @@
     position: relative;
 }
 .construcciones-jumbotron{
-    background-image: url('../img/casaGrande2.jpg');
+    background-image: url('../img/webp/casaGrande2.webp');
     color: white;
 }
 .remodelaciones-jumbotron{  
     color: white;
-    background-image: url('../img/salaDarkBlue.jpg');
+    background-image: url('../img/webp/salaDarkBlue.webp');
 }
 .ampliaciones-jumbotron{
     color: white;
-    background-image: url('../img/patio.jpg');
+    background-image: url('../img/webp/patio.webp');
 }
 .z-index2{
     z-index: 2;

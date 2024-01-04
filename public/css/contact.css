@@ -1,6 +1,6 @@
 /* cover styles */
 .shadow-cover{
-    background-image: url("../img/contact-image.jpg")!important;
+    background-image: url("../img/webp/contact-image.webp")!important;
     background-repeat: no-repeat;
     background-size: cover;
     height: 70%;
