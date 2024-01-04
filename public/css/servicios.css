@@ -28,3 +28,23 @@
         top: -30px;
     }
 }
+.jumbotron-background{
+    background-size: cover;
+    position: relative;
+}
+.construcciones-jumbotron{
+    background-image: url('../img/casaGrande2.jpg');
+    color: white;
+}
+.remodelaciones-jumbotron{  
+    color: white;
+    background-image: url('../img/salaDarkBlue.jpg');
+}
+.ampliaciones-jumbotron{
+    color: white;
+    background-image: url('../img/patio.jpg');
+}
+.z-index2{
+    z-index: 2;
+    position: relative;
+}
