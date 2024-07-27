@@ -15,8 +15,4 @@ app.get('/servicios', (req, res)=>{
 app.get('/contacto', (req, res)=>{
     res.sendFile(__dirname + '/contact.html');
 })
-// Iniciar el servidor en el puerto especificado
-const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-    console.log(`Server ready on port ${PORT}.`);
-});
+app.listen(process.env.PORT || 3000, ()=>console.log('Server ready on port 3001.'))
