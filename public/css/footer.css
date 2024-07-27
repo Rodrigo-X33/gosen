@@ -241,5 +241,7 @@ section {
     background: -webkit-linear-gradient(59deg, #3a7356, #16222A)!important;
     background: linear-gradient(59deg, #3a7356, #16222A)!important;
     color: white;
-    margin-top:100px;
   }
+.margen-footer{
+  margin-top:100px;
+}
